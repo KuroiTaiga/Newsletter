@@ -7,7 +7,7 @@
       <mj-column width="100%">
         
         <!-- Image -->
-        <mj-image src="Logo + Wallpaper.jpg"></mj-image>
+        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474348/Logo_Wallpaper_2.jpg"></mj-image>
         <!-- Fin Image -->
         
         <!-- Diviseur -->
@@ -16,7 +16,16 @@
     </mj-section>
     <mj-section>
       <mj-column width="100%">
-        <mj-text align="center" font-size="20px" color="white" font-family="Arial" font-weight="200">Nous organisons un tournoi le 5 juillet à l'occasion de la sortie de l'Opération Para Bellum</mj-text>
+        <mj-text align="center" font-size="20px" color="white" font-family="Arial">
+      *|IF:NAME|*
+          Agent *|NAME|*!
+      *|ELSE:|*
+          Soldat
+      *|END:IF|*
+    </mj-text>
+        <mj-text align="center" font-size="20px" color="white" font-family="Arial" font-weight="200">
+          Nous organisons un tournoi le 5 juillet à l'occasion de la sortie de l'Opération Para Bellum
+        </mj-text>
         <mj-divider padding-top="20" padding-bottom="60x" padding-left="0px" padding-right="0px" border-width="1px" border-color="#f8f8f8"></mj-divider>
         <!-- Fin Diviseur -->
         
@@ -24,10 +33,10 @@
       
       <mj-group width="100%">
       <mj-column>
-        <mj-image src="Skin d'arme.jpg" padding-top="30px"></mj-image>
+        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Skin_d_arme.jpg" padding-top="30px"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-image src="Crédits R6.jpg" padding-top="30px"></mj-image>
+        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Cr%C3%A9dits_R6.jpg" padding-top="30px"></mj-image>
       </mj-column>
       </mj-group>
       </mj-section>
@@ -38,7 +47,8 @@
           Des Récompenses à gagner
         </mj-text>
         <mj-text align="center" color="white">
-          Des Pass Année 3, des Crédits R6 et bien d'autres choses ...           </mj-text>
+          Des Pass Année 3, des Crédits R6 et bien d'autres choses ...           
+        </mj-text>
         <mj-text align="center" font-size="20px" color="white">
           Plus d'information sur :
           <a href="https://rainbow6.ubisoft.com/siege/fr-fr/home/index.aspx"> https://rainbow6.ubisoft.com/siege/fr-fr/home/index.aspx</a>
@@ -53,7 +63,8 @@
     <mj-section padding-bottom="0px">
     <mj-column>  
     <mj-divider padding="20 20px" border-width="3px" border-color="#f8f8f8"></mj-divider>
-      <mj-image src="White Noise.jpg"></mj-image>
+      <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474345/White_Noise.jpg">
+      </mj-image>
       
       <mj-button padding-top="20" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706"> Déjà Disponible</mj-button>
       
@@ -66,13 +77,15 @@
     <mj-section>
       <mj-group>
       <mj-column width="33%">
-        <mj-image padding="0" src="PEGI 18.jpg"></mj-image>
+        <mj-image padding="0" src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/PEGI_18.jpg">           </mj-image>
       </mj-column>
       <mj-column>
-        <mj-image padding="0" src="Logo Ubisoft.jpg"></mj-image>
+        <mj-image padding="0" src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Logo_Ubisoft.jpg">
+        </mj-image>
       </mj-column>
       <mj-column>
-        <mj-image padding="0" src="Ubisoft CLub.jpg"></mj-image>
+        <mj-image padding="0" src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Ubisoft_Club.jpg">
+        </mj-image>
       </mj-column>
       </mj-group>
       </mj-section>
