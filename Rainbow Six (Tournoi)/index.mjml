@@ -7,6 +7,10 @@
      background-size: cover;
      background-repeat: no-repeat;
      }
+       a {
+     color: #27add0;
+     }
+     
     </mj-style>
   </mj-head>
   <mj-body css-class="smoke" background-color="black">
