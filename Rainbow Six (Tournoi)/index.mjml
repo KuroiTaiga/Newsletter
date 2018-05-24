@@ -5,6 +5,16 @@
    <!--Gif pour l'animation-->
     
     <!--background-size: cover permet d'étendre le gif sur toute la newsletter-->
+    
+    <mj-style>
+     .hover td:hover, .hover a:hover{
+     	background-color: #ac8858 !important;
+    } 
+     .hover a {
+      	background: transparent !important;
+      }
+    </mj-style>
+    
    <mj-style inline="inline">
     	.smoke {
      	background-image: url("https://media.giphy.com/media/5h1PRJXon80POMQmNO/giphy.gif");
@@ -90,7 +100,8 @@
         <mj-text align="center" color="white">
           Des Pass Année 3, des Crédits R6 et bien d'autres choses ...           
         </mj-text>
-        <mj-button background-color="#e6e4bd" padding-top="20" padding-bottom="0" color="black" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706">
+        
+        <mj-button css-class="hover" background-color="#e6e4bd" padding-top="20" padding-bottom="0" color="black" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706">
           
           Plus d'information ici
           
@@ -116,7 +127,7 @@
       <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474345/White_Noise.jpg">
       </mj-image>
       
-      <mj-button padding-top="20" background-color="#e6e4bd" color="black" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706"> Déjà Disponible
+      <mj-button css-class="hover" padding-top="20" background-color="#e6e4bd" color="black" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706"> Déjà Disponible
       </mj-button>
       
     <mj-divider padding="20 20px" border-width="3px" border-color="#f8f8f8">
