@@ -1,6 +1,10 @@
 <mjml>
+  
+  <!--Début Head-->
   <mj-head>
-   <!--Gif pour l'animation--> 
+   <!--Gif pour l'animation-->
+    
+    <!--background-size: cover permet d'étendre le gif sur toute la newsletter-->
    <mj-style>
     	.smoke {
      	background-image: url("https://media.giphy.com/media/5h1PRJXon80POMQmNO/giphy.gif");
@@ -12,12 +16,18 @@
      }
      
     </mj-style>
+    <!--Gif pour l'animation-->
+    
   </mj-head>
+  <!--Fin Head-->
+  
+  <!--Début Body-->
   <mj-body css-class="smoke" background-color="black">
     
     <mj-raw>
       <!-- Header -->
     </mj-raw>
+    
     <mj-section background-color="rgba(0,0,0,0.0)" padding-top="20px">
       <mj-column width="100%">
         
@@ -26,34 +36,50 @@
         <!-- Fin Image -->
         
         <!-- Diviseur -->
-        <mj-divider padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#f8f8f8"></mj-divider>
+        <mj-divider padding-top="20" padding-bottom="0px" padding-left="0px" padding-right="0px" border-width="1px" border-color="#f8f8f8">         </mj-divider>
       </mj-column>
     </mj-section>
+    
     <mj-section padding="0">
       <mj-column width="100%" >
         <mj-text align="center" font-size="20px" color="white" font-family="Arial" >
+      <!--Code pour ajouter le Prénom du destinataire-->    
       *|IF:NAME|*
-          Agent *|NAME|*!
+          Agent *|NAME|* !
+      <!--S'il n'y a pas de nom alors on aura Soldat-->
       *|ELSE:|*
           Soldat
       *|END:IF|*
     </mj-text>
+        
         <mj-text align="center" font-size="20px" color="white" font-family="Arial" font-weight="200">
-          Nous organisons un tournoi le 5 juillet à l'occasion de la sortie de l'Opération Para Bellum
+          Nous organisons un tournoi le 5 juillet en partenariat avec Ubisoft à l'occasion de la sortie de l'Opération Para Bellum
         </mj-text>
+        
         <mj-divider padding-top="20" padding-bottom="60x" padding-left="0px" padding-right="0px" border-width="1px" border-color="#f8f8f8"></mj-divider>
         <!-- Fin Diviseur -->
+      
+      <!--Récompenses-->  
+      </mj-column>
+      <!--Utilisation de mj-group afin d'aligner horizontalement les images-->
+      <mj-group width="100%">
+        
+      <mj-column>
+        
+        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Skin_d_arme.jpg" padding-top="30px">
+        </mj-image>
         
       </mj-column>
-      
-      <mj-group width="100%">
+        
       <mj-column>
-        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Skin_d_arme.jpg" padding-top="30px"></mj-image>
+        
+        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Cr%C3%A9dits_R6.jpg" padding-top="30px">
+        </mj-image>
+        
       </mj-column>
-      <mj-column>
-        <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474344/Cr%C3%A9dits_R6.jpg" padding-top="30px"></mj-image>
-      </mj-column>
+        
       </mj-group>
+      
       </mj-section>
       
       <mj-section padding-top="0px">
@@ -71,46 +97,101 @@
       </mj-column>
       
     </mj-section>
+    <!--Récompenses-->
+    
     <mj-raw>
       
       <!-- Editor -->
     </mj-raw>
+    
+    <!--Promotion Opération White Noise-->
     <mj-section padding-bottom="0px">
-    <mj-column>  
-    <mj-divider padding="20 20px" border-width="3px" border-color="#f8f8f8"></mj-divider>
+      
+    <mj-column>
+      
+      <mj-divider padding="20 20px" border-width="3px" border-color="#f8f8f8">
+      </mj-divider>
       <mj-image src="http://res.cloudinary.com/ravenlords/image/upload/v1526474345/White_Noise.jpg">
       </mj-image>
       
-      <mj-button padding-top="20" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706"> Déjà Disponible</mj-button>
+      <mj-button padding-top="20" href="https://rainbow6.ubisoft.com/siege/fr-FR/news/detail.aspx?c=tcm:153-315663-16&ct=tcm:153-76770-32&ncid=209-2559---1-eml-31-29-R6S_Y3P_Batch_Y2PO_availablenow--2-1--1217-6----R6SIEGE_C2W___R6S_Y3P_Batch_Y2PO_availablenow_ID52706"> Déjà Disponible
+      </mj-button>
       
-    <mj-divider padding="20 20px" border-width="3px" border-color="#f8f8f8"></mj-divider>
+    <mj-divider padding="20 20px" border-width="3px" border-color="#f8f8f8">
+    </mj-divider>
+      
     </mj-column>
+      
     </mj-section>
+    <!--Promotion Opération White Noise-->
     
     <!--Footer-->
     
+     <!--Logos-->
     <mj-section>
+      
       <mj-group>
-      <mj-column width="33%">
-        <mj-image padding="0" src="http://res.cloudinary.com/ravenlords/image/upload/v1526647379/PEGI_18.png">           </mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image padding="0" src="http://res.cloudinary.com/ravenlords/image/upload/v1526647379/Logo_Ubisoft.png">
+        
+       <mj-column>
+         
+        <!--Première image-->
+         
+        <mj-image padding="0" width="50px" src="http://res.cloudinary.com/ravenlords/image/upload/v1527072437/snap_eedef_1473282157335.png">
+          
         </mj-image>
-      </mj-column>
-      <mj-column>
-        <mj-image padding="0" src="http://res.cloudinary.com/ravenlords/image/upload/v1526647379/Ubisoft_Club.png">
+         
+        <!--Première image-->
+         
+       </mj-column>
+        
+       <mj-column>
+         
+         <!--Deuxième image-->
+         
+         <mj-image padding="24px 3" width="90px" src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Logo_WGF.png">
+         </mj-image>
+         
+       </mj-column>
+        
+       <mj-column>
+         
+        <mj-image padding="20px 3" width="70px"  src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Ubisoft_Toronto_logo.png">
+          
         </mj-image>
-      </mj-column>
-      </mj-group>
-      </mj-section>
-    
-      <mj-section>
-      <mj-column>
-        <mj-text align="center" color="white">©2017 Ubisoft Entertainment. All Rights Reserved. Tom Clancy’s, Rainbow Six, 
-The Soldier Icon, Ubisoft and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.</mj-text>
+         
+        <!--Deuxième image-->
+         
+       </mj-column>
+        
+       <mj-column> 
+
+         <mj-image padding="10px 3" width="70px"  src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Club-logo_304399.png">
+           
+         </mj-image>
+         
         </mj-column>
+         
+       </mj-column> 
+ 
+      </mj-group>
+      
+      </mj-section>
+
+    <!--Logos-->
+    
+ <!--Droits d'auteur-->   
+      <mj-section>
+        
+       <mj-column>
+         
+        <mj-text align="center" color="white">©2017 Ubisoft Entertainment. All Rights Reserved. Tom Clancy’s, Rainbow Six, 
+The Soldier Icon, Ubisoft and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.
+        </mj-text>
+         
+       </mj-column>
+        
     </mj-section>
+ <!--Droits d'auteur-->
     
     <!--Fin Footer-->
     
@@ -118,4 +199,5 @@ The Soldier Icon, Ubisoft and the Ubisoft logo are trademarks of Ubisoft Enterta
     </mj-section>
 
   </mj-body>
+<!--Fin Body-->
 </mjml>
