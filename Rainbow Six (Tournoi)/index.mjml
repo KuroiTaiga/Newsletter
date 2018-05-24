@@ -5,7 +5,7 @@
    <!--Gif pour l'animation-->
     
     <!--background-size: cover permet d'étendre le gif sur toute la newsletter-->
-   <mj-style>
+   <mj-style inline="inline">
     	.smoke {
      	background-image: url("https://media.giphy.com/media/5h1PRJXon80POMQmNO/giphy.gif");
      background-size: cover;
@@ -148,14 +148,14 @@
          
          <!--Deuxième image-->
          
-         <mj-image padding="24px 3" width="90px" src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Logo_WGF.png">
+         <mj-image padding="24px 3px" width="90px" src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Logo_WGF.png">
          </mj-image>
          
        </mj-column>
         
        <mj-column>
          
-        <mj-image padding="20px 3" width="70px"  src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Ubisoft_Toronto_logo.png">
+        <mj-image padding="20px 3px" width="70px"  src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Ubisoft_Toronto_logo.png">
           
         </mj-image>
          
@@ -165,7 +165,7 @@
         
        <mj-column> 
 
-         <mj-image padding="10px 3" width="70px"  src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Club-logo_304399.png">
+         <mj-image padding="10px 3px" width="70px"  src="https://res.cloudinary.com/ravenlords/image/upload/v1527072437/Club-logo_304399.png">
            
          </mj-image>
          
